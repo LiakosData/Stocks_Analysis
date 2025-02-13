@@ -1,0 +1,6 @@
+DateTable = ADDCOLUMNS(
+
+    CALENDAR(MIN('Calculations'[Date]), MAX('Calculations'[Date])),
+    "Year", YEAR([Date]),
+    "Month", FORMAT([Date], "MMMM"), 
+    "MonthNumber", MONTH([Date]))

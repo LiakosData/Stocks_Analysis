@@ -1,0 +1,14 @@
+SPY_YoY_Growth = 
+
+VAR PreviousYearPrice = 
+
+Calculate(
+    MAX('Calculations'[SPY]),
+    SAMEPERIODLASTYEAR(DateTable[Date]))
+
+VAR PeakPrice = 
+MAX('Calculations'[SPY])
+
+RETURN
+DIVIDE(
+PeakPrice = PreviousYearPrice, PreviousYear, 0)
