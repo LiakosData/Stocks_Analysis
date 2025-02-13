@@ -5,10 +5,10 @@ VAR PreviousYearPrice =
 Calculate(
     MAX('Calculations'[SPY]),
     SAMEPERIODLASTYEAR(DateTable[Date]))
-
+                                                                            #The same function was repeated for the rest of the stocks.
 VAR PeakPrice = 
 MAX('Calculations'[SPY])
-
+                                                         
 RETURN
 DIVIDE(
 PeakPrice = PreviousYearPrice, PreviousYear, 0)
