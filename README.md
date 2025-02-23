@@ -47,3 +47,4 @@ The data consists of historical stock closing prices and volume from Yahoo Finan
 🔗 LinkedIn: https://www.linkedin.com/in/ilias-roufogalis-320025347/
 💻 GitHub: https://github.com/LiakosData
 
+📓 I have adjusted the project's layout and style and the new version is at my Portfolio GitHub Page : https://liakosdata.github.io/Portfolio/
